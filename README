@@ -1,0 +1,29 @@
+# Gaussian Classifiers Comparison
+
+This project compares two machine learning classifiers: Gaussian Naive Bayes and Linear Discriminant Analysis (LDA). The project evaluates their performance on different datasets, including linearly separable and inseparable data.
+
+## Project Structure
+
+- `base_estimator.py`: Contains the base classes for the estimators, such as classifiers and regressors.
+- `classifiers.py`: Implements Perceptron, Gaussian Naive Bayes, and LDA classifiers.
+- `loss_functions.py`: Defines loss functions like misclassification error and accuracy.
+- `classifiers_evaluation.py`: Evaluates the performance of the classifiers using visualizations.
+- `utils.py`: Provides utility functions for plotting and data generation.
+- `requirements.txt`: Lists the required Python packages.
+
+## Features
+
+- **Perceptron Classifier**: Finds a separating hyperplane for linearly separable data.
+- **Gaussian Naive Bayes Classifier**: Assumes that features are conditionally independent.
+- **Linear Discriminant Analysis (LDA)**: Assumes a Gaussian distribution for the features with a shared covariance matrix across classes.
+
+## Dependencies
+
+- numpy
+- matplotlib==3.3.4
+- plotly
+
+Install the dependencies using:
+
+```bash
+pip install -r requirements.txt
